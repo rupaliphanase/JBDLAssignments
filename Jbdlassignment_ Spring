@@ -1,0 +1,71 @@
+Q1. Which dependency should be present in order to run the spring boot application as a web service (web application) *
+spring-boot-starter-web
+spring-web
+spring-boot-web
+spring-boot-starter
+
+Answer: spring-boot-starter-web
+
+Q2. Which is the default embedded server present in spring web dependency *
+
+Jetty
+Tomcat
+Weblogic
+Undertow
+
+Answer: Tomcat
+
+Q3. Can we change the default embedded server for spring boot projects *
+
+Yes
+No
+
+Answer: No
+
+Q4. How many embedded servers can be present in one spring web service / web application ?
+
+Answer: At a time only one embedded server can be present in one spring web service/ web application
+
+Q5. What will happen if we have this code in pom.xml ?
+There will be an error
+Jetty Server will run
+Tomcat Server will run
+No embedded server will run and the application will stop as soon as it starts
+
+Answer: There will be an error
+
+Q6. What will happen if we don't add @RestController annotation over the class in which APIs are defined ?
+APIs will return 500 http status code (Internal Server Error)
+APIs will return 400 http status code (Bad Request)
+APIs will return 404 http status code (Page not found)
+APIs will return 200 http status code (OK)
+
+Answer: APIs will return 404 http status code (Page not found)
+
+Q7. We can define only one paramter in the API request ?
+True
+False
+
+Answer: False. we can define multiple parameters in API request
+
+Q8. The request paramter in the API can be of the following data type ?
+String
+Integer
+int
+List<String>
+boolean
+Boolean
+
+Answer: String, Integer, Boolean
+
+
+Q. 9. What is the tag for excluding any parent dependency from some dependency ?
+
+Answer:<exclusions><exclusion></exclusion></exclusions> is the tag for excluding the dependency.
+
+
+Q10. Can the return type be void for an API (i.e we don't return anything from the API) ?
+Yes
+No
+
+Answer: Yes. Delete api can return nothing
