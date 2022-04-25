@@ -1,0 +1,80 @@
+Q1. Maven is a programming language *
+
+True
+False
+
+Answer: False. It is build automation tool
+
+Q2. Maven is used for building only Spring projects *
+
+True
+False
+
+Answer: False. Maven can be used for building other projects as well.
+
+Q3. For building Maven projects in IDE, we need to necessarily install Maven on our local machine *
+
+True
+False
+
+Answer: False. We can install IDE plugin for Maven
+
+Q4. pom.xml file in maven projects cannot be renamed to something else *
+
+True
+False
+
+Answer: False. Maven looks for pom.xml while building.
+
+Q5. target folder (auto-generated folder which contains the jar file and bytecode classes) in maven project cannot be renamed to something else *
+
+True
+False
+
+Answer: False. We can change the name of target folder but we need to add the profile and use it while building
+
+Q6. Which of the following are valid type of repositories in Maven *
+
+Central Repository
+Current Repository
+Local Repository
+Private Repository
+Public Repository
+Remote Repository
+
+Answer: Local Repository, Central Repository, Remote Repository
+
+Q7.Which of the following are the correct lifecycles in Maven *
+
+Compile
+Jar
+Package
+Test
+Upload
+Clear
+
+Answer: Compile, Package, Test
+
+Q8.Which of the following should be unique with respect to Maven archetypes *
+
+GroupId
+ArtifactId
+Version
+Combination of GroupId, ArtifactId and version
+
+Answer: Combination of GroupId, ArtifactId and version
+
+Q9. Maven resolves / downloads the dependencies in a recurring fashion (i.e, automatically downloads the parent dependencies) *
+
+True
+False
+
+Answer: True
+
+Q10. We can configure maven's local repository to some location other than ~/.m2/ as well *
+
+Yes
+No
+
+Answer: Yes. we can configure repository using different ways like using IDE or by specifying <repository> in pom.xml
+
